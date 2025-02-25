@@ -1,5 +1,10 @@
 // Copyright 2025 NNTU-CS
 
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+using namespace std;
+
 int gcd(int a, int b) {
 	int arr[100], index = 0;
 	while (a != b) {
